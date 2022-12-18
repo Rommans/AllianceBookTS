@@ -1,7 +1,6 @@
 import { useState, useCallback, useEffect } from 'react'
 import { api, IMG_API } from './services/api'
 
-
 import { Search } from './components/Search';
 import { Dropdown } from './components/Dropdown';
 import { Loading } from './components/Loading';
@@ -13,18 +12,7 @@ import './App.css'
 
 interface Character {
   name: string;
-  height: string;
-  mass: string;
-  hair_color: string;
-  skin_color: string;
-  eye_color: string;
-  birth_year: string;
   gender: string;
-  homeworld: string;
-  films: string[];
-  species: string[];
-  vehicles: string[];
-  starships: string[];
   url: string;
 }
 
